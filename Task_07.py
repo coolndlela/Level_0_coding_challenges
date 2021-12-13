@@ -5,7 +5,7 @@ def celsius_to_fahrenheit(celsius):
     return fahrenheit
 
 
-print(celsius_to_fahrenheit(20))
+print(celsius_to_fahrenheit(33))
 
 
 # Converts Fahrenheit to Celsius
@@ -14,4 +14,4 @@ def fahrenheit_to_celsius(fahrenheit):
     print(celsius)
 
 
-fahrenheit_to_celsius(68)
+fahrenheit_to_celsius(91.4)
