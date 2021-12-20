@@ -1,6 +1,4 @@
 # Task 0.9
-from __future__ import print_function
-
 
 def find_vowels():
 
