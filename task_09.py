@@ -1,9 +1,8 @@
 # Task 0.9
 
-def find_vowels():
+def find_vowels(string):
 
-    string = input("Enter word ").lower()
-    vowels = "aeiou"
+    vowels = "aeiouAEIOU"
     new_string = ""
     for vowl in string:
         if vowl in vowels:
@@ -13,7 +12,7 @@ def find_vowels():
     for char in new_string:
         if char not in output:
             output = output + char
-            print(char, end=",")
+            print(char.lower(), end=",")
 
 
-find_vowels()
+find_vowels("house")
