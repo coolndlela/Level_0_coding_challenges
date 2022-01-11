@@ -1,8 +1,10 @@
 # Task 0.10
 
 def common_char(string1, string2):
-
+    string1 = string1.lower()
+    string2 = string2.lower()
     common = ""
+
     for char in string1:
         if char in string2:
             common = common + char
@@ -11,7 +13,7 @@ def common_char(string1, string2):
     for i in common:
         if i not in output:
             output = output + i
-    print(*output, sep=",")
+    print(*output, sep=", ")
 
 
 common_char("computers", "house")
