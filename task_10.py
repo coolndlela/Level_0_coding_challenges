@@ -1,4 +1,3 @@
-# Task 0.10
 
 def common_char(string1, string2):
     string1 = string1.lower()

@@ -1,4 +1,3 @@
-# Task 0.6
 
 def get_max_num(*numbers):
     max_num = numbers[0]

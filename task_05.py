@@ -1,4 +1,3 @@
-# Task 0.5
 
 def calc_triangle_area(num1, num2, num3):
     semi_perimeter = (num1 + num2 + num3) / 2

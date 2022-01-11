@@ -1,4 +1,3 @@
-# Task 0.8
 
 def to_hrs_and_minutes(num):
     hours = num//60

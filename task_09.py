@@ -1,4 +1,3 @@
-# Task 0.9
 
 def find_vowels(string):
     string = string.lower()
