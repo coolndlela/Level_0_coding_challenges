@@ -12,6 +12,7 @@ def common_char(string1, string2):
     for i in common:
         if i not in output:
             output = output + i
+    print("Common letters: ", end="")
     print(*output, sep=", ")
 
 

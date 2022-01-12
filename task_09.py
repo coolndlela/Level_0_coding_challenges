@@ -3,7 +3,6 @@ def find_vowels(string):
     string = string.lower()
 
     vowels = "aeiou"
-
     new_string = ""
     for vowl in string:
         if vowl in vowels:
@@ -13,7 +12,9 @@ def find_vowels(string):
     for char in new_string:
         if char not in output:
             output = output + char
-    print(*output, sep=", ")
+
+    print ("Vowels: ", end="")
+    print (*output, sep=",")
 
 
 find_vowels("Umuzi")
